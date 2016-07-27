@@ -10,32 +10,32 @@
       </ul>
     </div>
   <% end %>
-
-  <div class="field">
+<div class="container">
+  <div class="form-group">
     <%= f.label :number %><br>
-    <%= f.number_field :number %>
+    <%= f.number_field :number, class: 'form-control' %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :first_name %><br>
-    <%= f.text_field :first_name %>
+    <%= f.text_field :first_name, class: 'form-control' %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :last_name %><br>
-    <%= f.text_field :last_name %>
+    <%= f.text_field :last_name, class: 'form-control' %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :gender %><br>
-    <%= f.text_field :gender %>
+    <%= f.text_field :gender, class: 'form-control' %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :group %><br>
-    <%= f.text_field :group %>
+    <%= f.text_field :group, class: 'form-control' %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :secs %><br>
-    <%= f.number_field :secs %>
+    <%= f.number_field :secs, class: 'form-control' %>
   </div>
-  <div class="actions">
+  
     <%= f.submit %>
   </div>
 <% end %>
