@@ -48,10 +48,10 @@ end
 
 group :test do
     gem 'rspec-rails'
-    gem 'mongoid-rspec'
+    gem 'mongoid-rspec', '>= 4.0.0'
     gem 'capybara'
 end
-gem 'mongoid' 
+gem 'mongoid' , '>= 7.6.1'
 gem 'will_paginate'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
